@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shan Michael De Guzman | Full-Stack Developer</title>
+  <meta name="description" content="IT portfolio of Shan Michael De Guzman, a BSIT student at NEUST and full-stack developer who builds secure web and mobile apps. Includes EmploySmart, LifeSync and an OWASP Top 10 security lab." />
+  <meta name="theme-color" content="#ffffff" />
+  <meta property="og:title" content="Shan Michael De Guzman | Full-Stack Developer" />
+  <meta property="og:description" content="Proof, not promises. Projects, skills and certifications of a full-stack developer from Nueva Ecija, Philippines." />
+  <meta property="og:image" content="/img/og.jpg" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d0d0b'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia,serif' font-style='italic' font-size='34' fill='%23ebe7de'%3Es%3C/text%3E%3Ccircle cx='46' cy='44' r='5' fill='%235b74ff'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="img/shan.webp" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="nav">
+    <a href="#top" class="nav__logo" aria-label="Back to top"><span class="nav__mark">SM</span><span class="nav__name">Shan Michael <b>De Guzman</b></span></a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about" data-hover>About</a>
+      <a href="#skills" data-hover>Skills</a>
+      <a href="#work" data-hover>Projects</a>
+      <a href="#certs" data-hover>Certifications</a>
+      <a href="#experience" data-hover>Experience</a>
+    </nav>
+    <div class="nav__right">
+      <span class="nav__status"><i></i>Open to OJT &amp; junior roles</span>
+      <a href="#contact" class="btn btn--sm" data-magnetic><span>Contact</span></a>
+      <button class="nav__burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="menu" aria-hidden="true">
+    <nav>
+      <a href="#about"><small>01</small>About</a>
+      <a href="#skills"><small>02</small>Skills</a>
+      <a href="#work"><small>03</small>Projects</a>
+      <a href="#certs"><small>04</small>Certifications</a>
+      <a href="#experience"><small>05</small>Experience</a>
+      <a href="#contact"><small>06</small>Contact</a>
+    </nav>
+  </div>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__inner">
+        <div class="hero__text">
+          <span class="eyebrow"><i></i>Open to OJT &amp; junior developer roles</span>
+          <h1 class="hero__title">Hi, I'm <span class="hero__name">Shan Michael</span><span class="hero__wave" aria-hidden="true">👋</span></h1>
+          <p class="hero__typed" aria-hidden="true"><span class="typed__lead">I'm</span> <span class="typed"></span><span class="caret"></span></p>
+          <p class="sr-only">I'm a BSIT student, web developer, full-stack developer, mobile app developer and security-minded builder.</p>
+          <p class="hero__lede">Full-stack developer building <em>secure, offline-ready</em> web and mobile apps, from the database schema to the deploy pipeline.</p>
+          <div class="hero__cta">
+            <a href="#work" class="btn btn--primary">View my projects <span aria-hidden="true">→</span></a>
+            <a href="#contact" class="btn btn--ghost">Contact me</a>
+          </div>
+          <ul class="hero__meta">
+            <li><span class="mono">Education</span><b>BS Information Technology · NEUST</b></li>
+            <li><span class="mono">Based in</span><b>Nueva Ecija, PH · <span class="js-clock">--:--</span> PHT</b></li>
+            <li><span class="mono">Focus</span><b>Full-Stack Web · Mobile (Capacitor) · App Security</b></li>
+          </ul>
+        </div>
+
+        <div class="hero__visual">
+          <div class="hero__photo">
+            <img src="img/shan.webp" alt="Portrait of Shan Michael De Guzman" width="1000" height="1000" />
+          </div>
+          <div class="badge badge--a"><span class="badge__icon">✓</span><span><b>IT Specialist</b><small>HTML &amp; CSS · Certiport</small></span></div>
+          <div class="badge badge--b"><span class="badge__num">3</span><span><b>Shipped projects</b><small>Web · Mobile · Security</small></span></div>
+          <a class="badge badge--c" href="https://lifesync-roan-nine.vercel.app" target="_blank" rel="noopener"><span class="badge__dot"></span><span><b>LifeSync is live</b><small>lifesync-roan-nine.vercel.app ↗</small></span></a>
+        </div>
+      </div>
+      <p class="hero__copy mono">Portfolio ©2026</p>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee" aria-label="Technologies I work with">
+      <span class="marquee__label mono">Technologies I work with</span>
+      <div class="marquee__track">
+        <span>React</span><i>✦</i><span>Angular</span><i>✦</i><span>TypeScript</span><i>✦</i><span>PHP</span><i>✦</i><span>Node.js</span><i>✦</i><span>MySQL</span><i>✦</i><span>PostgreSQL</span><i>✦</i><span>Supabase</span><i>✦</i><span>Tailwind</span><i>✦</i><span>Ionic</span><i>✦</i><span>Capacitor</span><i>✦</i><span>OWASP</span><i>✦</i>
+        <span>React</span><i>✦</i><span>Angular</span><i>✦</i><span>TypeScript</span><i>✦</i><span>PHP</span><i>✦</i><span>Node.js</span><i>✦</i><span>MySQL</span><i>✦</i><span>PostgreSQL</span><i>✦</i><span>Supabase</span><i>✦</i><span>Tailwind</span><i>✦</i><span>Ionic</span><i>✦</i><span>Capacitor</span><i>✦</i><span>OWASP</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <header class="sec-head">
+        <span class="sec-head__idx mono">01</span>
+        <span class="sec-head__name mono">/ about-me</span>
+      </header>
+
+      <div class="about__grid">
+        <div class="about__statement">
+          <p class="big reveal-lines">
+            I believe a portfolio should be <em>proof, not promises.</em> So everything here is something I designed, built, tested and shipped myself.
+          </p>
+        </div>
+
+        <div class="about__photo" data-cursor="Hi!">
+          <div class="about__photo-inner"><img src="img/shan.webp" alt="Shan Michael De Guzman in a suit and blue tie" loading="lazy" width="1000" height="1000" /></div>
+          <span class="about__tag mono">SMD — 2026</span>
+        </div>
+
+        <div class="about__body">
+          <p class="reveal-up">I'm <strong>Shan Michael L. De Guzman</strong>, an Information Technology student at Nueva Ecija University of Science and Technology. I like systems that solve real problems for real people. That's why my capstone matches jobseekers to local jobs, and my side project keeps someone's whole life organized even when they're offline.</p>
+          <p class="reveal-up">My work spans the full stack: relational database design, REST APIs in PHP and Node.js, React and Angular front ends, Android builds with Capacitor, and the security work that keeps it all safe, including JWT auth, row-level security, rate limiting and OWASP-driven hardening.</p>
+
+          <div class="about__objective reveal-up">
+            <span class="mono label">Career objective</span>
+            <p>To join a development team as an OJT trainee or junior full-stack developer where I can ship production software, grow under senior engineers, and bring a security-first mindset to every feature.</p>
+          </div>
+        </div>
+
+        <div class="about__edu">
+          <span class="mono label">Education</span>
+          <ul class="timeline">
+            <li class="reveal-up">
+              <span class="timeline__year mono">2023 — 2027</span>
+              <div>
+                <h3>Bachelor of Science in Information Technology</h3>
+                <p>Nueva Ecija University of Science and Technology (NEUST)</p>
+              </div>
+            </li>
+          </ul>
+          <dl class="facts reveal-up">
+            <div><dt class="mono">Based in</dt><dd>Nueva Ecija, Philippines</dd></div>
+            <div><dt class="mono">Focus</dt><dd>Full-stack web · Mobile · AppSec</dd></div>
+            <div><dt class="mono">Languages</dt><dd>English, Filipino</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><span class="stat__num" data-count="3">0</span><span class="stat__label mono">Shipped projects</span></div>
+        <div class="stat"><span class="stat__num" data-count="90">0</span><span class="stat__label mono">Commits across repos</span></div>
+        <div class="stat"><span class="stat__num" data-count="75">0</span><span class="stat__label mono">Hours of JobReady training</span></div>
+        <div class="stat"><span class="stat__num" data-count="2">0</span><span class="stat__label mono">Industry certificates</span></div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section skills" id="skills">
+      <header class="sec-head">
+        <span class="sec-head__idx mono">02</span>
+        <span class="sec-head__name mono">/ technical-skills</span>
+      </header>
+      <h2 class="title reveal-lines">The <em>stack</em> I actually ship with.</h2>
+      <p class="skills__note mono">Every tool below is used in a project on this page.</p>
+
+      <div class="skills__grid">
+        <article class="skill-card" data-tilt>
+          <span class="skill-card__no mono">A</span>
+          <h3>Languages</h3>
+          <ul><li>JavaScript (ES2023)</li><li>TypeScript</li><li>PHP 8</li><li>SQL</li><li>HTML5</li><li>CSS3 / SCSS</li></ul>
+          <span class="skill-card__proof mono">Certiport: HTML &amp; CSS ✓</span>
+        </article>
+        <article class="skill-card" data-tilt>
+          <span class="skill-card__no mono">B</span>
+          <h3>Front-end &amp; Mobile</h3>
+          <ul><li>React 18 + React Router</li><li>Angular (signals, standalone)</li><li>Ionic Framework</li><li>Tailwind CSS</li><li>Capacitor (Android)</li><li>Chart.js · PWA</li></ul>
+          <span class="skill-card__proof mono">EmploySmart · LifeSync</span>
+        </article>
+        <article class="skill-card" data-tilt>
+          <span class="skill-card__no mono">C</span>
+          <h3>Back-end &amp; Databases</h3>
+          <ul><li>PHP REST APIs</li><li>Node.js + Express 5</li><li>MySQL / MariaDB</li><li>PostgreSQL (Supabase)</li><li>IndexedDB (Dexie)</li><li>ER modelling &amp; migrations</li></ul>
+          <span class="skill-card__proof mono">22-table MySQL schema</span>
+        </article>
+        <article class="skill-card" data-tilt>
+          <span class="skill-card__no mono">D</span>
+          <h3>Security</h3>
+          <ul><li>JWT + refresh rotation</li><li>Row Level Security</li><li>OWASP Top 10</li><li>Rate limiting · CORS</li><li>Input validation (zod)</li><li>CSRF &amp; secure headers</li></ul>
+          <span class="skill-card__proof mono">OWASP Top 10 lab</span>
+        </article>
+        <article class="skill-card" data-tilt>
+          <span class="skill-card__no mono">E</span>
+          <h3>Tools &amp; DevOps</h3>
+          <ul><li>Git &amp; GitHub</li><li>VS Code</li><li>Vite · npm</li><li>Vercel · Hostinger</li><li>XAMPP · cPanel</li><li>Vitest · Playwright</li></ul>
+          <span class="skill-card__proof mono">CI-tested deploys</span>
+        </article>
+        <article class="skill-card skill-card--soft" data-tilt>
+          <span class="skill-card__no mono">F</span>
+          <h3>Professional</h3>
+          <ul><li>Requirements analysis</li><li>Technical documentation</li><li>Problem solving</li><li>Communication</li><li>Workplace readiness</li><li>AI-assisted workflows</li></ul>
+          <span class="skill-card__proof mono">Wadhwani JobReady ✓</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="section work" id="work">
+      <header class="sec-head">
+        <span class="sec-head__idx mono">03</span>
+        <span class="sec-head__name mono">/ selected-projects</span>
+      </header>
+      <h2 class="title reveal-lines">Selected <em>work</em>, <br class="hide-sm" />documented end to end.</h2>
+
+      <!-- Project index -->
+      <ol class="work__index">
+        <li><a href="#p-employsmart" data-preview="img/es-landing.webp"><span class="mono">01</span><strong>EmploySmart</strong><em>Capstone · Full-stack</em><span class="mono">2026</span></a></li>
+        <li><a href="#p-lifesync" data-preview="img/ls-dashboard.webp"><span class="mono">02</span><strong>LifeSync</strong><em>Cross-platform · Offline-first</em><span class="mono">2026</span></a></li>
+        <li><a href="#p-owasp" data-preview="img/ow-home.webp"><span class="mono">03</span><strong>JobLink OWASP Lab</strong><em>Cybersecurity · Education</em><span class="mono">2026</span></a></li>
+      </ol>
+      <div class="work__preview" aria-hidden="true"><img alt="" /></div>
+
+      <!-- ========== PROJECT 1 ========== -->
+      <article class="project" id="p-employsmart" style="--accent:#1f9d55">
+        <div class="project__head">
+          <span class="project__no">01</span>
+          <div>
+            <p class="mono project__kicker">Capstone project · Job placement platform</p>
+            <h3 class="project__title reveal-lines">EmploySmart</h3>
+          </div>
+          <div class="project__links">
+            <a class="btn" href="https://github.com/deguzmanshanmichael/EmploySmart" target="_blank" rel="noopener" data-magnetic><span>Source code ↗</span></a>
+            <span class="pill mono">Formerly live at employsmart.online</span>
+          </div>
+        </div>
+
+        <figure class="shot shot--hero" data-cursor="Open">
+          <div class="shot__bar"><i></i><i></i><i></i><span>employsmart.online</span></div>
+          <img src="img/es-landing.webp" alt="EmploySmart landing page: Find work that moves your future forward" loading="lazy" width="1600" height="1000" data-full />
+        </figure>
+
+        <div class="project__body">
+          <div class="project__col">
+            <h4 class="mono label">Overview</h4>
+            <p>A municipal job-placement platform that connects jobseekers, employers, the Public Employment Service Office (PESO) and the City Livelihood office (CLCDO) in one system. Jobseekers upload a résumé and get ranked job matches; employers post jobs that PESO approves; staff get analytics and printable reports.</p>
+            <h4 class="mono label">Problem addressed</h4>
+            <p>Local job matching was manual and paper-based: résumés were read by hand, postings weren't verified, and staff had no live view of supply and demand. Jobseekers couldn't see why they did or didn't fit a role.</p>
+          </div>
+          <div class="project__col">
+            <h4 class="mono label">Objectives</h4>
+            <ul class="ticks">
+              <li>Parse uploaded résumés (PDF/DOCX, including scanned files via OCR) into structured profiles</li>
+              <li>Rank jobs with an explainable, weighted match score</li>
+              <li>Give five roles (jobseeker, employer, PESO, CLCDO, admin) their own secure portals</li>
+              <li>Surface skill gaps and recommend training programs</li>
+              <li>Deploy to shared hosting and package for Android</li>
+            </ul>
+          </div>
+          <div class="project__col">
+            <h4 class="mono label">Technologies</h4>
+            <ul class="tags"><li>React 18</li><li>Vite</li><li>Tailwind CSS</li><li>PHP 8.1 REST API</li><li>MySQL</li><li>JWT</li><li>PDF.js + Tesseract.js</li><li>dompdf</li><li>Capacitor</li><li>Hostinger</li></ul>
+            <h4 class="mono label">My contribution</h4>
+            <p><strong>Sole developer (76 commits).</strong> I designed the 22-table MySQL schema, built the PHP API (16 controllers, JWT with refresh-token rotation, rate limiting, role-based access), the React front end for all five portals, the résumé parser and matching engine, and the Hostinger deployment.</p>
+          </div>
+        </div>
+
+        <div class="algo">
+          <p class="mono label">Match score weighting, from <code>ResumeMatchingService.php</code></p>
+          <div class="algo__bar">
+            <span style="--w:35">Skills 35</span><span style="--w:25">Experience 25</span><span style="--w:15">Education 15</span><span style="--w:10">Credentials 10</span><span style="--w:10">Similarity 10</span><span style="--w:5">Loc 5</span>
+          </div>
+        </div>
+
+        <div class="gallery gallery--es">
+          <figure class="shot" data-cursor="Open"><div class="shot__bar"><i></i><i></i><i></i><span>/jobseeker</span></div><img src="img/es-js-dashboard.webp" alt="Jobseeker dashboard with recommended jobs and match percentages" loading="lazy" data-full /><figcaption class="mono">Jobseeker dashboard: résumé-based recommendations</figcaption></figure>
+          <figure class="shot" data-cursor="Open"><div class="shot__bar"><i></i><i></i><i></i><span>/jobseeker/jobs</span></div><img src="img/es-jobs.webp" alt="Browse jobs grid with salary, location and apply buttons" loading="lazy" data-full /><figcaption class="mono">Job board with search and filters</figcaption></figure>
+          <figure class="shot" data-cursor="Open"><div class="shot__bar"><i></i><i></i><i></i><span>/admin/analytics</span></div><img src="img/es-analytics.webp" alt="Admin platform analytics with user distribution donut chart" loading="lazy" data-full /><figcaption class="mono">Admin analytics</figcaption></figure>
+          <figure class="shot" data-cursor="Open"><div class="shot__bar"><i></i><i></i><i></i><span>/employer</span></div><img src="img/es-employer.webp" alt="Employer dashboard with application pipeline chart" loading="lazy" data-full /><figcaption class="mono">Employer application pipeline</figcaption></figure>
+          <figure class="shot" data-cursor="Open"><div class="shot__bar"><i></i><i></i><i></i><span>/peso/reports</span></div><img src="img/es-peso-reports.webp" alt="PESO reports page with printable employment report" loading="lazy" data-full /><figcaption class="mono">PESO printable reports</figcaption></figure>
+          <figure class="shot" data-cursor="Open"><div class="shot__bar"><i></i><i></i><i></i><span>/admin</span></div><img src="img/es-admin.webp" alt="Admin dashboard with accounts by role and pending workload charts" loading="lazy" data-full /><figcaption class="mono">Admin control center</figcaption></figure>
+        </div>
+
+        <div class="phones">
+          <figure class="phone" data-cursor="Open"><img src="img/es-m-landing.webp" alt="EmploySmart landing page on a phone" loading="lazy" data-full /></figure>
+          <figure class="phone" data-cursor="Open"><img src="img/es-m-dashboard.webp" alt="EmploySmart jobseeker dashboard on a phone" loading="lazy" data-full /></figure>
+          <figure class="phone" data-cursor="Open"><img src="img/es-m-jobs.webp" alt="EmploySmart job board on a phone" loading="lazy" data-full /></figure>
+          <p class="phones__note mono">Fully responsive, and packaged for Android with Capacitor.</p>
+        </div>
+
+        <div class="outcome">
+          <span class="mono label">Project output</span>
+          <p>A working, deployed multi-role placement system that ran in production at employsmart.online during its evaluation phase. Screenshots on this page were captured from the same build running locally, since the hosting has ended.</p>
+        </div>
+      </article>
+
+      <!-- ========== PROJECT 2 ========== -->
+      <article class="project" id="p-lifesync" style="--accent:#6c5cff">
+        <div class="project__head">
+          <span class="project__no">02</span>
+          <div>
+            <p class="mono project__kicker">Personal project · Life organizer</p>
+            <h3 class="project__title reveal-lines">LifeSync</h3>
+          </div>
+          <div class="project__links">
+            <a class="btn btn--fill" href="https://lifesync-roan-nine.vercel.app" target="_blank" rel="noopener" data-magnetic><span>Live demo ↗</span></a>
+            <a class="btn" href="https://github.com/shanmichaeldeguzman/LifeSync" target="_blank" rel="noopener" data-magnetic><span>Source code ↗</span></a>
+          </div>
+        </div>
+
+        <figure class="shot shot--hero" data-cursor="Open">
+          <div class="shot__bar"><i></i><i></i><i></i><span>lifesync-roan-nine.vercel.app</span></div>
+          <img src="img/ls-dashboard.webp" alt="LifeSync dashboard: tasks, events, habits, spending and goals" loading="lazy" data-full />
+        </figure>
+
+        <div class="project__body">
+          <div class="project__col">
+            <h4 class="mono label">Overview</h4>
+            <p>An all-in-one personal organizer (tasks, calendar, notes, habits, finance, documents and goals) for Android, iOS, tablets and the web. It works fully offline and syncs automatically when the device reconnects.</p>
+            <h4 class="mono label">Problem addressed</h4>
+            <p>People juggle five or six apps to run their day, and most break without internet. LifeSync puts everything in one private place and keeps working on a spotty connection, without silently overwriting edits made on two devices.</p>
+          </div>
+          <div class="project__col">
+            <h4 class="mono label">Objectives</h4>
+            <ul class="ticks">
+              <li>Deliver one codebase for web, Android and tablets</li>
+              <li>Store data locally first, then sync with conflict resolution</li>
+              <li>Protect every row with PostgreSQL Row Level Security</li>
+              <li>Provide reminders, recurring items, charts and CSV/JSON export</li>
+              <li>Test the API, database policies and UI on phone, tablet and desktop</li>
+            </ul>
+          </div>
+          <div class="project__col">
+            <h4 class="mono label">Technologies</h4>
+            <ul class="tags"><li>Ionic</li><li>Angular</li><li>TypeScript</li><li>Capacitor</li><li>Dexie / IndexedDB</li><li>Node.js</li><li>Express 5</li><li>Supabase Postgres</li><li>RLS</li><li>Vitest</li><li>Playwright</li><li>Vercel</li></ul>
+            <h4 class="mono label">My contribution</h4>
+            <p><strong>Sole developer.</strong> I built the architecture, data model and migrations, the offline sync engine, the Express API (zod validation, helmet, rate limiting), all ten modules of the UI, the Android build, and the test suites, then deployed the web app and API on Vercel.</p>
+          </div>
+        </div>
+
+        <div class="gallery gallery--ls">
+          <figure class="shot" data-cursor="Open"><div class="shot__bar"><i></i><i></i><i></i><span>/finance</span></div><img src="img/ls-finance.webp" alt="LifeSync finance page with income vs expenses chart" loading="lazy" data-full /><figcaption class="mono">Finance: budgets, charts and CSV export</figcaption></figure>
+          <figure class="shot" data-cursor="Open"><div class="shot__bar"><i></i><i></i><i></i><span>/calendar</span></div><img src="img/ls-calendar.webp" alt="LifeSync monthly calendar with events and tasks" loading="lazy" data-full /><figcaption class="mono">Calendar: month, week and day views</figcaption></figure>
+          <figure class="shot" data-cursor="Open"><div class="shot__bar"><i></i><i></i><i></i><span>/dashboard · dark</span></div><img src="img/ls-dark.webp" alt="LifeSync dashboard in dark mode" loading="lazy" data-full /><figcaption class="mono">Dark theme</figcaption></figure>
+          <figure class="shot" data-cursor="Open"><div class="shot__bar"><i></i><i></i><i></i><span>/habits</span></div><img src="img/ls-habits.webp" alt="LifeSync habits tracker with weekly streak view" loading="lazy" data-full /><figcaption class="mono">Habits and streaks</figcaption></figure>
+        </div>
+
+        <div class="phones">
+          <figure class="phone" data-cursor="Open"><img src="img/ls-m-dashboard.webp" alt="LifeSync dashboard on a phone" loading="lazy" data-full /></figure>
+          <figure class="phone" data-cursor="Open"><img src="img/ls-m-tasks.webp" alt="LifeSync tasks on a phone" loading="lazy" data-full /></figure>
+          <figure class="phone" data-cursor="Open"><img src="img/ls-m-dark.webp" alt="LifeSync dark mode on a phone" loading="lazy" data-full /></figure>
+          <p class="phones__note mono">Android APK available from GitHub Releases.</p>
+        </div>
+
+        <div class="outcome">
+          <span class="mono label">Project output</span>
+          <p>A live, installable PWA and Android app with a tested API, running at lifesync-roan-nine.vercel.app.</p>
+        </div>
+      </article>
+
+      <!-- ========== PROJECT 3 ========== -->
+      <article class="project" id="p-owasp" style="--accent:#ff5a3c">
+        <div class="project__head">
+          <span class="project__no">03</span>
+          <div>
+            <p class="mono project__kicker">Cybersecurity · Teaching lab</p>
+            <h3 class="project__title reveal-lines">JobLink OWASP Lab</h3>
+          </div>
+          <div class="project__links">
+            <a class="btn" href="https://github.com/deguzmanshanmichael/EmploySmart/tree/main/owasp_top_10_demo" target="_blank" rel="noopener" data-magnetic><span>Source code ↗</span></a>
+            <span class="pill mono">Intentionally vulnerable. Run locally only.</span>
+          </div>
+        </div>
+
+        <figure class="shot shot--hero" data-cursor="Open">
+          <div class="shot__bar"><i></i><i></i><i></i><span>localhost/owasp_top_10_demo</span></div>
+          <img src="img/ow-home.webp" alt="JobLink OWASP Top 10 vulnerable demo home page" loading="lazy" data-full />
+        </figure>
+
+        <div class="project__body">
+          <div class="project__col">
+            <h4 class="mono label">Overview</h4>
+            <p>A deliberately insecure clone of a job-matching site that demonstrates five OWASP Top 10 (2021) risks. Each one comes with a step-by-step attack walkthrough and the secure fix I applied in EmploySmart.</p>
+            <h4 class="mono label">Problem addressed</h4>
+            <p>Security is easy to talk about and hard to see. This lab makes the vulnerabilities tangible so classmates and reviewers can see why prepared statements, access checks and secret management matter.</p>
+          </div>
+          <div class="project__col">
+            <h4 class="mono label">Objectives</h4>
+            <ul class="ticks">
+              <li>A03 Injection: SQL injection on login and search</li>
+              <li>A01 Broken Access Control: unauthenticated admin page and IDOR</li>
+              <li>A07 Identification &amp; Authentication Failures</li>
+              <li>A05 Security Misconfiguration: exposed secrets and debug output</li>
+              <li>A06 Vulnerable &amp; Outdated Components, each with a documented fix</li>
+            </ul>
+          </div>
+          <div class="project__col">
+            <h4 class="mono label">Technologies</h4>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>Vanilla JS</li><li>PHP</li><li>MySQL</li><li>OWASP Top 10</li></ul>
+            <h4 class="mono label">My contribution</h4>
+            <p><strong>Sole author.</strong> I built the vulnerable front end and PHP back end, wrote the 600-line guide and the attack-scenario pages, and mapped each flaw to the hardening I applied in EmploySmart.</p>
+          </div>
+        </div>
+
+        <div class="gallery gallery--ow">
+          <figure class="shot" data-cursor="Open"><div class="shot__bar"><i></i><i></i><i></i><span>/attack-scenarios.html</span></div><img src="img/ow-scenarios.webp" alt="Attack scenarios index page" loading="lazy" data-full /><figcaption class="mono">Attack-scenario walkthroughs</figcaption></figure>
+          <figure class="shot" data-cursor="Open"><div class="shot__bar"><i></i><i></i><i></i><span>/vulnerabilities.html</span></div><img src="img/ow-vulns.webp" alt="Vulnerabilities documentation page about SQL injection" loading="lazy" data-full /><figcaption class="mono">Vulnerability documentation</figcaption></figure>
+          <figure class="shot" data-cursor="Open"><div class="shot__bar"><i></i><i></i><i></i><span>/admin.html</span></div><img src="img/ow-admin.webp" alt="Unprotected admin panel demonstrating broken access control" loading="lazy" data-full /><figcaption class="mono">A01: unprotected admin panel</figcaption></figure>
+          <figure class="shot" data-cursor="Open"><div class="shot__bar"><i></i><i></i><i></i><span>/login.html</span></div><img src="img/ow-login.webp" alt="Login form vulnerable to SQL injection" loading="lazy" data-full /><figcaption class="mono">A03: SQL-injectable login</figcaption></figure>
+        </div>
+
+        <div class="outcome">
+          <span class="mono label">Project output</span>
+          <p>A self-contained security teaching kit, plus a measurable hardening checklist that shaped EmploySmart's production security.</p>
+        </div>
+      </article>
+
+      <div class="github-cta">
+        <div>
+          <p class="mono label">More code on GitHub</p>
+          <h3>Two accounts, every repository documented with a README.</h3>
+        </div>
+        <div class="github-cta__links">
+          <a href="https://github.com/shanmichaeldeguzman" target="_blank" rel="noopener" class="gh" data-magnetic>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.2 1.9 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.7 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg>
+            <span><b>@shanmichaeldeguzman</b><small class="mono">LifeSync · coursework</small></span><i>↗</i>
+          </a>
+          <a href="https://github.com/deguzmanshanmichael" target="_blank" rel="noopener" class="gh" data-magnetic>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.2 1.9 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.7 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg>
+            <span><b>@deguzmanshanmichael</b><small class="mono">EmploySmart · OWASP lab</small></span><i>↗</i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICATIONS ============ -->
+    <section class="section certs" id="certs">
+      <header class="sec-head">
+        <span class="sec-head__idx mono">04</span>
+        <span class="sec-head__name mono">/ certifications-&amp;-training</span>
+      </header>
+      <h2 class="title reveal-lines">Verified, <em>not</em> self-reported.</h2>
+
+      <div class="certs__grid">
+        <article class="cert">
+          <figure class="cert__img" data-cursor="Open"><img src="img/cert-itspecialist.webp" alt="Information Technology Specialist certificate in HTML and CSS awarded to Shan Michael Leonardo De Guzman" loading="lazy" data-full /></figure>
+          <div class="cert__info">
+            <span class="mono label">Certiport · Pearson · CertNexus</span>
+            <h3>IT Specialist: HTML and CSS</h3>
+            <dl>
+              <div><dt class="mono">Awarded</dt><dd>October 29, 2026</dd></div>
+              <div><dt class="mono">Verify code</dt><dd class="mono">wEuLT-48eh</dd></div>
+              <div><dt class="mono">Valid</dt><dd>5 years</dd></div>
+            </dl>
+            <div class="cert__links">
+              <a href="https://verify.certiport.com" target="_blank" rel="noopener" class="link">Verify at certiport.com ↗</a>
+              <a href="certificates/it-specialist-html-css.pdf" target="_blank" rel="noopener" class="link">View PDF ↗</a>
+            </div>
+          </div>
+        </article>
+        <article class="cert">
+          <figure class="cert__img" data-cursor="Open"><img src="img/cert-wadhwani.webp" alt="Wadhwani Foundation Skill Readiness Certificate: Employability Skills JobReady with AI, Advanced Level" loading="lazy" data-full /></figure>
+          <div class="cert__info">
+            <span class="mono label">Wadhwani Foundation</span>
+            <h3>Employability Skills: JobReady (With AI) v1, Advanced Level</h3>
+            <dl>
+              <div><dt class="mono">Completed</dt><dd>November 05, 2026</dd></div>
+              <div><dt class="mono">Duration</dt><dd>75 hours training + in-class application</dd></div>
+              <div><dt class="mono">Via</dt><dd>NEUST</dd></div>
+            </dl>
+            <div class="cert__links">
+              <a href="certificates/wadhwani-jobready.pdf" target="_blank" rel="noopener" class="link">View PDF (scan to verify) ↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section experience" id="experience">
+      <header class="sec-head">
+        <span class="sec-head__idx mono">05</span>
+        <span class="sec-head__name mono">/ experience-&amp;-accomplishments</span>
+      </header>
+      <h2 class="title reveal-lines">Ship <em>log.</em></h2>
+
+      <ol class="log">
+        <li class="log__item">
+          <span class="log__date mono">Nov 2026</span>
+          <div class="log__main"><h3>Completed Wadhwani JobReady (With AI), Advanced</h3><p>75 hours of employability training covering workplace communication, problem solving, interview readiness and responsible AI use.</p></div>
+          <span class="log__tag mono">Training</span>
+        </li>
+        <li class="log__item">
+          <span class="log__date mono">Nov 2026</span>
+          <div class="log__main"><h3>Launched LifeSync, live on Vercel and Android</h3><p>Designed, tested and deployed a cross-platform, offline-first organizer with a Supabase back end and a Playwright test matrix across phone, tablet and desktop.</p></div>
+          <span class="log__tag mono">Project</span>
+        </li>
+        <li class="log__item">
+          <span class="log__date mono">Oct 2026</span>
+          <div class="log__main"><h3>Earned IT Specialist: HTML and CSS</h3><p>Industry certification from Certiport / Pearson, proctored and verifiable.</p></div>
+          <span class="log__tag mono">Certification</span>
+        </li>
+        <li class="log__item">
+          <span class="log__date mono">Aug–Oct 2026</span>
+          <div class="log__main"><h3>Deployed EmploySmart to production (employsmart.online)</h3><p>Took the capstone from local XAMPP to Hostinger shared hosting with SSL, a hardened .htaccess, environment-based secrets and a GitHub-to-Hostinger deploy guide. Ran a live evaluation with jobseeker, employer, PESO and CLCDO accounts.</p></div>
+          <span class="log__tag mono">Capstone</span>
+        </li>
+        <li class="log__item">
+          <span class="log__date mono">2026</span>
+          <div class="log__main"><h3>Built an OWASP Top 10 teaching lab</h3><p>Documented five vulnerability classes with live exploits and fixes, then applied the fixes as EmploySmart's security hardening.</p></div>
+          <span class="log__tag mono">Security</span>
+        </li>
+        <li class="log__item">
+          <span class="log__date mono">2023 —</span>
+          <div class="log__main"><h3>BS Information Technology, NEUST</h3><p>Coursework in web systems, databases, mobile development and information assurance. Earlier repos (HTML/CSS portfolios, PHP labs, a sensors app) are on GitHub.</p></div>
+          <span class="log__tag mono">Academic</span>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <p class="mono contact__kicker">06 / contact</p>
+      <h2 class="contact__title">
+        <span class="line"><span>Let's build</span></span>
+        <span class="line"><span><em>something</em> real.</span></span>
+      </h2>
+      <a class="contact__mail" href="mailto:shanmichaeldeguzman.neust@gmail.com" data-magnetic data-cursor="Write">
+        <span>shanmichaeldeguzman.neust@gmail.com</span><i>→</i>
+      </a>
+      <div class="contact__row">
+        <button class="btn btn--sm js-copy" data-copy="shanmichaeldeguzman.neust@gmail.com" data-magnetic><span>Copy email</span></button>
+        <a class="btn btn--sm" href="https://github.com/shanmichaeldeguzman" target="_blank" rel="noopener" data-magnetic><span>GitHub ↗</span></a>
+        <a class="btn btn--sm" href="https://github.com/deguzmanshanmichael" target="_blank" rel="noopener" data-magnetic><span>GitHub (projects) ↗</span></a>
+        <a class="btn btn--sm" href="https://lifesync-roan-nine.vercel.app" target="_blank" rel="noopener" data-magnetic><span>LifeSync live ↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="mono">© 2026 Shan Michael L. De Guzman</span>
+    <span class="mono hide-sm">Hand-coded in HTML, CSS &amp; JS · GSAP · Lenis · Deployed on Vercel</span>
+    <a href="#top" class="mono" data-hover>Back to top ↑</a>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Image preview" hidden>
+    <button class="lightbox__close mono" aria-label="Close preview">Close ✕</button>
+    <img alt="" />
+    <p class="lightbox__cap mono"></p>
+  </div>
+  <div class="toast mono" role="status" aria-live="polite"></div>
+
+  <script src="vendor/gsap.min.js"></script>
+  <script src="vendor/ScrollTrigger.min.js"></script>
+  <script src="vendor/lenis.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
